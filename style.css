@@ -1,0 +1,73 @@
+.my-button {
+    background-color: #151515;
+    border: none;
+    color: #ffffff;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .my-button:hover {
+    background-color: #353535;
+    color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+  }  
+
+.my-button a {
+  color: white;
+  text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #353535;
+  }
+  
+  header {
+    background-color: #151515;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #353535;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #151515;
+  }
+  
